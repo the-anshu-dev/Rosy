@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+  }
+
+  section{
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+
+  }
+
+
+  p{
+    position: relative;
+    font-size: 0.01em; 
+    letter-spacing: 0.05em; 
+    background: url(./img/rose1.png);
+    background-position: center;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+   -webkit-background-clip: text;
+   color: transparent;
+  }
